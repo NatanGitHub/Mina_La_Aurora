@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153993844965",
+    "firebase_url": "https://mina-la-aurora-default-rtdb.firebaseio.com",
+    "project_id": "mina-la-aurora",
+    "storage_bucket": "mina-la-aurora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153993844965:android:01f40ab850c64b9461dc0c",
+        "android_client_info": {
+          "package_name": "com.bsav157.minalaaurora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153993844965-i7gtt5s12e2brc2ub57998694ntbv030.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwQmJCJg5IxxqDBNj3iQBqvAun6IgiJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153993844965-i7gtt5s12e2brc2ub57998694ntbv030.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

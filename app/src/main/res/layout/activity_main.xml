@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:forceDarkAllowed="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/salir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Salir"
+        android:textColor="#0090FF"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Constrain Del Login -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLogin"
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Login"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/constrain_login_et_correo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Ingrese el Correo"
+            android:inputType="textEmailAddress"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/constrain_login_et_clave"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Ingrese la Clave"
+            android:inputType="textPassword"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_login_et_correo" />
+
+        <Button
+            android:id="@+id/constrain_login_btn_ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Login"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_login_et_clave" />
+
+        <TextView
+            android:id="@+id/constrain_login_tv_registrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Registrarse"
+            android:textColor="#0090FF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_login_btn_ingresar" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Constrain Del Menu Principal -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrain_menu_principal"
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/constrain_menu_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Menu Principal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 001"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm002"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_titulo" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="100dp"
+            android:text="UPM 002"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm005"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm001"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_titulo" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 005"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm002"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_titulo" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 006"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm007"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm002" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 007"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm009"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm006"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm002" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm009"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 009"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm007"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm002" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 010"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm074"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm007" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm074"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 074"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constrain_menu_principal_btn_upm079"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm010"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm007" />
+
+        <Button
+            android:id="@+id/constrain_menu_principal_btn_upm079"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="UPM 079"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constrain_menu_principal_btn_upm074"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_principal_btn_upm007" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Constrain Del Menu Upm -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrain_menu_upm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/constrain_menu_upm_tv_regresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Regresar"
+            android:textColor="#518BFF"
+            android:textSize="19dp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/constrain_menu_upm_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="sans-serif"
+            android:text="UPM 001"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/constrain_menu_upm_btn_agregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Agregar Maquina"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_upm_titulo" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:animateLayoutChanges="true"
+            android:layout_marginTop="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_menu_upm_btn_agregar">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_ver_maquina"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+            <ImageView
+                android:id="@+id/imagen_descargando_maquinas"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

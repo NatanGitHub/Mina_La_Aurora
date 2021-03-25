@@ -1,0 +1,39 @@
+
+l	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¢Ü'8ˆ÷“ş…/
+Ÿ
+java:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ô°¤¦8ˆ÷“ş…/
+V
+java:S1874@"9Remove this use of "getDefaultDisplay"; it is deprecated.(ÉÖÓî8¹™çÿ„/
+P
+java:S18743"3Remove this use of "NetworkInfo"; it is deprecated.(ÿ»¶Ã8ˆ÷“ş…/
+F
+java:S1604Š"(Make this anonymous inner class a lambda(„ÑñŒ8ˆ÷“ş…/
+M
+java:S1874Š"/Remove this use of "Handler"; it is deprecated.(„ÑñŒ8ˆ÷“ş…/
+^
+java:S1126K"AReplace this if-then-else statement by a single return statement.(´ÍÎ‹8ˆ÷“ş…/
+c
+java:S11265"AReplace this if-then-else statement by a single return statement.(ÉİØüÿÿÿÿ8ˆ÷“ş…/
+T
+java:S2696"6Make the enclosing method "static" or remove this set.(üôüË8ˆ÷“ş…/
+K
+java:S1604¡"(Make this anonymous inner class a lambda(úªüßùÿÿÿÿ8ˆ÷“ş…/
+G
+java:S1068("*Remove this unused "estado" private field.(œ½¡ì8‹–ˆ©†/
+s	java:S117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ©„ˆıÿÿÿÿ8ˆ÷“ş…/
+E
+java:S1659Ä"'Declare "numberTwo" on a separate line.(ò³¢Ï8ïÔü¯†/
+m	java:S117n"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¡Îò8ˆ÷“ş…/
+Y
+java:S18743"<Remove this use of "getActiveNetworkInfo"; it is deprecated.(ÿ»¶Ã8ˆ÷“ş…/
+E
+java:S1604d"(Make this anonymous inner class a lambda(ÑË½Ï8ˆ÷“ş…/
+o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ¹¼Ìüÿÿÿÿ8ˆ÷“ş…/
+r
+java:S3252B"PUse static access with "android.view.ViewGroup$LayoutParams" for "WRAP_CONTENT".(ÚÊ½Íÿÿÿÿÿ8ˆ÷“ş…/
+U
+java:S18745"3Remove this use of "isConnected"; it is deprecated.(ÉİØüÿÿÿÿ8ˆ÷“ş…/
+i
+java:S5998H"LRefactor this repetition that can lead to a stack overflow for large inputs.(áÜ‹•8ˆ÷“ş…/
+Q
+java:S1874A"/Remove this use of "getSize"; it is deprecated.(¯ÊÃÙøÿÿÿÿ8ˆ÷“ş…/

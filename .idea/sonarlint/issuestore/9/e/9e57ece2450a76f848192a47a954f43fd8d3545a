@@ -1,0 +1,15 @@
+
+G
+java:S1068"+Remove this unused "context" private field.(êİç8À½ú……/
+L
+java:S1068"*Remove this unused "extras" private field.(Š¼Ÿøøÿÿÿÿ8éÚö……/
+m	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è£²Ö8Õ±Âù…/
+m	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¦Ì8Õ±Âù…/
+E
+java:S1604+"(Make this anonymous inner class a lambda(ğìñ8Õ±Âù…/
+R
+java:S2209%"5Change this instance-reference to a static reference.(ÀÚÀ8Õ±Âù…/
+O
+java:S16597"-Declare "orometroMaquina" on a separate line.(ã¼šÓùÿÿÿÿ8Õ±Âù…/
+Œ
+java:S1319"oThe type of the "item" object should be an interface such as "List" rather than the implementation "ArrayList".(úğ‘¢8Áó……/
